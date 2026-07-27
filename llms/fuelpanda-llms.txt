@@ -1,0 +1,24 @@
+# FleetPanda
+
+> FleetPanda is a cloud-based dispatch and delivery platform for fuel distributors — "the operating system for fuel distributors." It manages operations across tank wagon / wet hosing, truck & trailer, transport, lubricants, and propane delivery, with dispatch, order management, same-day billing, reconciliation, a driver mobile app, and a customer portal. FleetPanda is SOC 2 Type 1 compliant (June 2026) and is backed by 500 Global.
+
+## About
+- [FleetPanda website](https://fleetpanda.com): Company overview and product
+- [Application login](https://app.fleetpanda.com): The FleetPanda dispatch platform
+- [Blog](https://fleetpanda.com/blog/): Fuel-distribution technology articles and company news
+- [Help Center](https://fleetpanda.freshdesk.com/support/home): Customer support and knowledge base
+- [GitHub organization](https://github.com/fleetpanda): FleetPanda open-source and tooling repositories
+
+## Product
+- [Get pricing](https://fleetpanda.com/get-pricing): Request pricing information
+- [Book a demo](https://fleetpanda.com/book-a-demo): Schedule a product demonstration
+
+## Trust
+- [SOC 2 Type 1 compliance](https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2---type-1-compliance): Independent verification of security controls
+
+## Legal
+- [Terms of Service](https://fleetpanda.com/terms-of-service)
+- [Privacy Policy](https://fleetpanda.com/privacy-policy)
+
+## Notes
+- FleetPanda does not currently publish a public API, developer portal, OpenAPI specification, or SDKs.

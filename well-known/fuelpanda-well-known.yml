@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.fleetpanda.com
+notes: fleetpanda.com redirects /.well-known/* (308) to www.fleetpanda.com, where all
+  probed discovery documents return 404. No well-known discovery surface is published.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

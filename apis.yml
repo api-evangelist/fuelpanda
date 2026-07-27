@@ -1,8 +1,28 @@
 aid: fuelpanda
-name: FuelPanda
-description: FuelPanda is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: FleetPanda
+description: FleetPanda is a cloud-based dispatch and delivery platform for fuel distributors,
+  describing itself as "the operating system for fuel distributors." It manages fuel
+  distribution operations across multiple business lines including tank wagon / wet
+  hosing, truck & trailer, transport, lubricants, and propane delivery. The platform
+  provides a dispatch dashboard with real-time driver and inventory visibility, order
+  management, same-day billing and invoicing with auto-BOL linking, automated reconciliation,
+  pricing and fee management, reporting and analytics, an iOS/Android driver app, and
+  a customer portal. FleetPanda is SOC 2 Type 1 compliant and is backed by 500 Global.
+  The company is catalogued in the API Evangelist network; it does not currently publish
+  a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/fuelpanda/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fleetpanda.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fuel Distribution
+- Fleet Management
+- Dispatch
+- Delivery Logistics
+- Energy
+- Transportation
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fuelpanda-domain-security.yml
 - type: Website
   url: https://fleetpanda.com
+- type: Login
+  url: https://app.fleetpanda.com
+- type: Blog
+  url: https://fleetpanda.com/blog/
+- type: Support
+  url: https://fleetpanda.freshdesk.com/support/home
+- type: GitHubOrganization
+  url: https://github.com/fleetpanda
+- type: Pricing
+  url: https://fleetpanda.com/get-pricing
+- type: TermsOfService
+  url: https://fleetpanda.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://fleetpanda.com/privacy-policy
+- type: Compliance
+  url: https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2---type-1-compliance
+- type: Conformance
+  url: conformance/fuelpanda-conformance.yml
+- type: WellKnown
+  url: well-known/fuelpanda-well-known.yml
+- type: LLMsTxt
+  url: llms/fuelpanda-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

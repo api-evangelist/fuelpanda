@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2---type-1-compliance
+standards:
+- id: soc2-type1
+  conforms: true
+  evidence: FleetPanda completed a SOC 2 Type 1 examination independently verifying
+    the security controls that protect customer data (announced June 2026).
+  source: https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2---type-1-compliance
+- id: oauth2
+  conforms: false
+- id: oidc
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+notes: No public API or OpenAPI is published, so cross-cutting API standards (OAuth2,
+  OIDC, RFC 9457) cannot be asserted. Only the SOC 2 Type 1 compliance program is
+  publicly documented.
