@@ -2,6 +2,13 @@
   "repo": "fuelpanda",
   "feeds": [
     {
+      "source": "https://fleetpanda.com/blog/",
+      "feed_url": "https://fleetpanda.com/blog/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://app.fleetpanda.com",
       "feed_url": "https://app.fleetpanda.com",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
